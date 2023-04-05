@@ -13,9 +13,9 @@ describe('discoDancer', function() {
   });
 
   it('should have a step function that makes its node change colors', function() {
-    sinon.spy(discoDancer.$node, 'toggle');
+    sinon.spy(discoDancer.$node, 'css');
     discoDancer.step();
-    expect(discoDancer.$node.toggle.called).to.be.true;
+    expect(discoDancer.$node.css.called).to.be.true;
   });
 
   describe('dance', function() {
