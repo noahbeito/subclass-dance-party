@@ -3,6 +3,10 @@ body, html{
 }
 body{
   margin: 0px;
+  background-image: url('/img/bojackhouse.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color:#444;
   font-size: 18px;
 }
@@ -25,4 +29,8 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   border-color: red;
   position:absolute;
+}
+
+.dancer:hover {
+  border: 50px solid;
 }
